@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.4), url(./utility/bg2.jpeg))
+};
+
+.app{
+    text-align: center;
+}
+.container{
+    background-color: #b144cd;
+    justify-content: center;
+    width: 50%;
+    margin-left: 26%;
+    margin-top: 5%;
+    text-align: center;
+    
+}

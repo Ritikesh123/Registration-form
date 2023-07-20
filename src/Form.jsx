@@ -29,7 +29,7 @@ const Form = () => {
     </h2>:""}</pre>
 
     
-    <form className="container rounded-lg" onSubmit={handleSubmit}>
+    <form className="container rounded- justify-center" onSubmit={handleSubmit}>
         <div className=" w-full px-10 py-5  text-4xl font-serif bg-blue-900 min-h-min rounded-lg">
             <h1 className=" italic text-center font-serif
              text-white ">
@@ -38,9 +38,9 @@ const Form = () => {
         </div>
 
 
-        <div className='w-full'>
+        <div className='w-full '>
           <input type='text' 
-          className='px-20 py-2 m-2 inline-block rounded box-border min-h-min' 
+          className=' px-20 py-2 m-2 inline-block rounded box-border min-h-min' 
           placeholder='Enter your name' 
           name='name' 
           value={inputData.name} 

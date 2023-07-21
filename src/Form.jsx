@@ -44,7 +44,7 @@ const Form = () => {
         </div>
 
 
-        <div className='w-full items-center justify-center'>
+        <div className='text-center'>
           <input type='text ' 
           className='px-6 py-3 m-2 inline-block rounded box-border min-h-min'  
           placeholder='Enter your name' 
@@ -56,7 +56,7 @@ const Form = () => {
 
 
 
-        <div  className='w-full items-center justify-center'>
+        <div  className='text-center'>
           <input type='text' 
           className='px-6 py-3 m-2 inline-block rounded box-border min-h-min' 
           placeholder='Enter your email' 
@@ -68,7 +68,7 @@ const Form = () => {
 
 
 
-        <div  className='w-full items-center justify-center'>
+        <div  className='text-center'>
           <input type='text' 
           className='px-6 py-3 m-2 inline-block rounded box-border min-h-min' 
           placeholder='password' 
@@ -82,7 +82,7 @@ const Form = () => {
 
 
 
-        <div  className='w-full items-center justify-center'>
+        <div  className='text-center'>
           <input type='text' 
           className='px-6 py-3 m-2 inline-block rounded box-border min-h-min' 
           placeholder='confirm passward'
@@ -96,7 +96,7 @@ const Form = () => {
 
 
 
-        <div className='text-center my-2 mb-2'>
+        <div className='text-center my-2'>
           <button type='submit' 
           className='text-white bg-gradient-to-b 
           to bg-cyan-500 to-red-600 px-6 py-3 my-5 

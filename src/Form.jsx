@@ -29,13 +29,13 @@ const Form = () => {
     <pre>{(flag)?<h2 className='ui-defined text-center font-bold mt-5 bg-green-500 text-xl '
     >Hello {inputData.name}, yo've successfully registered 🤗
     </h2>:""}</pre>
-{/* 
+
     <div
-      className="bg-image min-h-screen"
+      className="bg-image md:h-screen h-full"
       style={{ backgroundImage: `url(https://i.pinimg.com/736x/8e/d9/5b/8ed95bf38bc11c63890da16ba9e895e0.jpg)` }}
-    > */}
+    >
       
-    <form className="container items-center mb-20 mt-5 rounded-lg justify-center" onSubmit={handleSubmit}>
+    <form className="container items-center rounded-lg justify-center" onSubmit={handleSubmit}>
         <div className=" w-full py-5  text-4xl font-serif bg-blue-900 min-h-min rounded-lg">
             <h1 className=" italic text-center font-serif
              text-white ">
@@ -109,7 +109,7 @@ const Form = () => {
 
 
     </form>
-    {/* </div> */}
+    </div>
     
     
     </>

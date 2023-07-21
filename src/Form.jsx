@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import "./App.css"
 
 
 const Form = () => {
@@ -22,15 +23,20 @@ const Form = () => {
         }
       }
   return (
+
+
     <>
-    
     <pre>{(flag)?<h2 className='ui-defined text-center font-bold mt-5 bg-green-500 text-xl '
     >Hello {inputData.name}, yo've successfully registered 🤗
     </h2>:""}</pre>
-
-    
-    <form className="container rounded- justify-center" onSubmit={handleSubmit}>
-        <div className=" w-full px-10 py-5  text-4xl font-serif bg-blue-900 min-h-min rounded-lg">
+{/* 
+    <div
+      className="bg-image min-h-screen"
+      style={{ backgroundImage: `url(https://i.pinimg.com/736x/8e/d9/5b/8ed95bf38bc11c63890da16ba9e895e0.jpg)` }}
+    > */}
+      
+    <form className="container items-center mb-20 mt-5 rounded-lg justify-center" onSubmit={handleSubmit}>
+        <div className=" w-full py-5  text-4xl font-serif bg-blue-900 min-h-min rounded-lg">
             <h1 className=" italic text-center font-serif
              text-white ">
               Registration form
@@ -38,9 +44,9 @@ const Form = () => {
         </div>
 
 
-        <div className='w-full '>
-          <input type='text' 
-          className=' px-20 py-2 m-2 inline-block rounded box-border min-h-min' 
+        <div className='w-full'>
+          <input type='text ' 
+          className='px-6 py-3 m-2 inline-block rounded box-border min-h-min'  
           placeholder='Enter your name' 
           name='name' 
           value={inputData.name} 
@@ -52,7 +58,7 @@ const Form = () => {
 
         <div>
           <input type='text' 
-          className='px-20 py-2 m-2 inline-block rounded box-border' 
+          className='px-6 py-3 m-2 inline-block rounded box-border min-h-min' 
           placeholder='Enter your email' 
           name='email' 
           value={inputData.email} 
@@ -64,8 +70,8 @@ const Form = () => {
 
         <div>
           <input type='text' 
-          className='px-20 py-2 m-2  inline-block rounded box-border' 
-          placeholder='Enter your password' 
+          className='px-6 py-3 m-2 inline-block rounded box-border min-h-min' 
+          placeholder='password' 
           typeof="password"
           autoComplete="off"
           name='password' 
@@ -78,8 +84,8 @@ const Form = () => {
 
         <div>
           <input type='text' 
-          className='px-20 py-2 m-2 inline-block rounded box-border' 
-          placeholder='Enter your confirm passward'
+          className='px-6 py-3 m-2 inline-block rounded box-border min-h-min' 
+          placeholder='confirm passward'
           typeof="password"
           autoComplete="off" 
           name='confirm_password' 
@@ -90,9 +96,12 @@ const Form = () => {
 
 
 
-        <div className='text-center'>
+        <div className='text-center my-2'>
           <button type='submit' 
-          className='bg-green-700 px-6 py-3 m-2 inline-block rounded box-border cursor-pointer'>
+          className='text-white bg-gradient-to-b 
+          to bg-cyan-500 to-red-600 px-6 py-3 my-5 
+          mx-auto flex items-center rounded-md hover:scale-110
+          duration-300'>
             Submit
           </button>
         </div>
@@ -100,6 +109,9 @@ const Form = () => {
 
 
     </form>
+    {/* </div> */}
+    
+    
     </>
   )
 }

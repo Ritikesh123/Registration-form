@@ -1,9 +1,10 @@
-.App{
-  text-align: center;
-  background-color: url(./utility/bg2.jpeg);
-  position: fixed;
-  min-width: 100%;
-  min-height: 100%;
+/* .bg-image {
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+ */

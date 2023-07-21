@@ -35,8 +35,8 @@ const Form = () => {
       style={{ backgroundImage: `url(https://i.pinimg.com/736x/8e/d9/5b/8ed95bf38bc11c63890da16ba9e895e0.jpg)` }}
     > */}
       
-    <form className="container items-center  rounded-lg" onSubmit={handleSubmit}>
-        <div className=" w-full py-5  text-4xl font-serif bg-blue-900 min-h-min rounded-lg">
+    <form className="container items-center justify-center rounded-lg" onSubmit={handleSubmit}>
+        <div className=" w-full py-5 items-center  text-4xl font-serif bg-blue-900 min-h-min rounded-lg">
             <h1 className=" italic text-center font-serif
              text-white ">
               Registration form
@@ -44,7 +44,7 @@ const Form = () => {
         </div>
 
 
-        <div className='w-full'>
+        <div className='w-full items-center justify-center'>
           <input type='text ' 
           className='px-6 py-3 m-2 inline-block rounded box-border min-h-min'  
           placeholder='Enter your name' 
@@ -56,7 +56,7 @@ const Form = () => {
 
 
 
-        <div>
+        <div  className='w-full items-center justify-center'>
           <input type='text' 
           className='px-6 py-3 m-2 inline-block rounded box-border min-h-min' 
           placeholder='Enter your email' 
@@ -68,7 +68,7 @@ const Form = () => {
 
 
 
-        <div>
+        <div  className='w-full items-center justify-center'>
           <input type='text' 
           className='px-6 py-3 m-2 inline-block rounded box-border min-h-min' 
           placeholder='password' 
@@ -82,7 +82,7 @@ const Form = () => {
 
 
 
-        <div>
+        <div  className='w-full items-center justify-center'>
           <input type='text' 
           className='px-6 py-3 m-2 inline-block rounded box-border min-h-min' 
           placeholder='confirm passward'
@@ -96,7 +96,7 @@ const Form = () => {
 
 
 
-        <div className='text-center my-2'>
+        <div className='text-center my-2 mb-2'>
           <button type='submit' 
           className='text-white bg-gradient-to-b 
           to bg-cyan-500 to-red-600 px-6 py-3 my-5 

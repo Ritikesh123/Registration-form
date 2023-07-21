@@ -30,12 +30,12 @@ const Form = () => {
     >Hello {inputData.name}, yo've successfully registered 🤗
     </h2>:""}</pre>
 
-    <div
-      className="bg-image md:h-screen h-full"
+    {/* <div
+      className="bg-image lg:h-screen h-full"
       style={{ backgroundImage: `url(https://i.pinimg.com/736x/8e/d9/5b/8ed95bf38bc11c63890da16ba9e895e0.jpg)` }}
-    >
+    > */}
       
-    <form className="container items-center rounded-lg justify-center" onSubmit={handleSubmit}>
+    <form className="container items-center  rounded-lg" onSubmit={handleSubmit}>
         <div className=" w-full py-5  text-4xl font-serif bg-blue-900 min-h-min rounded-lg">
             <h1 className=" italic text-center font-serif
              text-white ">
@@ -109,7 +109,7 @@ const Form = () => {
 
 
     </form>
-    </div>
+    {/* </div> */}
     
     
     </>

@@ -35,7 +35,7 @@ const Form = () => {
       style={{ backgroundImage: `url(https://i.pinimg.com/736x/8e/d9/5b/8ed95bf38bc11c63890da16ba9e895e0.jpg)` }}
     > */}
       
-    <form className="container sm:h-screen text-center rounded-lg" onSubmit={handleSubmit}>
+    <form className="container md:h-screen text-center rounded-lg" onSubmit={handleSubmit}>
         <div className=" w-full py-5 items-center  text-4xl font-serif bg-blue-900 min-h-min rounded-lg">
             <h1 className=" italic text-center font-serif
              text-white ">
